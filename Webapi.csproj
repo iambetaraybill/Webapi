@@ -20,5 +20,14 @@
     <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Dockerfile">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Webapi.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 
 </Project>
